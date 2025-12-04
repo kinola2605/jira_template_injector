@@ -1,0 +1,7 @@
+[
+    {
+        "name": "Okoro Small",
+        "trigger": "$$$okoro_small",
+        "content": "📮 Demande de VM Okoro pour le SAE [SAE_NAME]\n\nContexte et Besoin\nContexte : [CONTEXTE]\n\nBesoin : Création d'une machine virtuelle (VM) Okoro pour l’environnement de [ENVIRONNEMENT]. (Les autres environnements feront l’objet de tickets dédiés liés à ce ticket).\n\n⚙️ Éléments Techniques\n- Version Okoro demandée : 4.13.2 (template 2.5.1)\n- Code client DEMAT : [CODE_CLIENT]\n- Environnement : [ENVIRONNEMENT]\n- Nom du client/configuration : [NOM_CLIENT] / [NOM_CLIENT_COMPLET]\n- Taille de la VM : small (“S”) (se référer à la page confluence ci-après : https://confluence.docaposte.fr/x/9_LNFQ)\n- Stockage de la VM pour la première année : 100 GO (se référer à la page confluence ci-après : https://confluence.docaposte.fr/x/9_LNFQ)\n- Nombre de VM : Pour la pré-production et la production, 2 VM seront demandées."
+    }
+]
