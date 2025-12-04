@@ -6,7 +6,6 @@ Une extension Chrome minimaliste pour automatiser l'injection de modèles de tex
 
 *   **Injection Automatique** : Remplit automatiquement le champ description s'il est vide (configurable).
 *   **Menu Contextuel** : Clic-droit dans n'importe quel champ texte pour insérer un modèle.
-*   **Snippets (Raccourcis)** : Tapez un mot-clé (ex: `$$$okoro_small`) et il sera remplacé instantanément par le texte complet.
 *   **Popup** : Cliquez sur l'icône de l'extension pour choisir un modèle dans une liste.
 *   **Compatibilité** : Fonctionne sur Jira (y compris dans les iframes complexes) et sur la plupart des sites web.
 
@@ -28,20 +27,15 @@ Les modèles sont stockés dans le fichier `templates/templates.json`. Vous pouv
 [
     {
         "name": "Nom du modèle (visible dans le menu)",
-        "trigger": "$$$mon_raccourci",
         "content": "Le texte à insérer.\nPeut contenir des sauts de ligne."
     }
 ]
 ```
 
 *   **name** : Le nom affiché dans le menu contextuel et le popup.
-*   **trigger** : (Optionnel) Le raccourci texte qui déclenchera l'insertion automatique lors de la frappe.
 *   **content** : Le contenu textuel à insérer.
 
 ## Utilisation
-
-### Via Snippet
-Tapez simplement le trigger défini (ex: `$$$okoro_small`) dans n'importe quel champ texte.
 
 ### Via Menu Contextuel
 1.  Faites un clic-droit dans la zone de texte.
